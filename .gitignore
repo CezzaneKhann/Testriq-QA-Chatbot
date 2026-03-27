@@ -3,4 +3,5 @@ venv/
 __pycache__/
 testriq_db/
 diagnosis.txt
+Testriq_info.txt
 *.pyc

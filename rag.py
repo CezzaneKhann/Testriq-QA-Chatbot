@@ -6,15 +6,28 @@ TEXT_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Testriq_in
 DB_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "testriq_db")
 
 
-def load_text_file(filepath):
-    """Load and return content from a structured text file."""
-    if not os.path.exists(filepath):
-        print(f"WARNING: {filepath} not found!")
-        return ""
-    with open(filepath, "r", encoding="utf-8") as f:
-        content = f.read()
-    print(f"Loaded text file: {filepath} ({len(content)} chars)")
-    return content
+def load_text_content():
+    """Load knowledge base content from local file or Streamlit secrets."""
+    # Try local file first (for local development)
+    if os.path.exists(TEXT_FILE):
+        with open(TEXT_FILE, "r", encoding="utf-8") as f:
+            content = f.read()
+        print(f"Loaded from local file: {TEXT_FILE} ({len(content)} chars)")
+        return content
+
+    # Fall back to Streamlit secrets (for cloud deployment)
+    try:
+        import streamlit as st
+        content = st.secrets["KNOWLEDGE_BASE"]
+        print(f"Loaded from Streamlit secrets ({len(content)} chars)")
+        return content
+    except (ImportError, KeyError, FileNotFoundError):
+        pass
+
+    raise FileNotFoundError(
+        "Knowledge base not found! Provide Testriq_info.txt locally "
+        "or set KNOWLEDGE_BASE in Streamlit secrets."
+    )
 
 
 def build_knowledge_base():
@@ -32,10 +45,8 @@ def build_knowledge_base():
         shutil.rmtree(DB_DIR)
         print("Old database deleted")
 
-    # Load text file
-    text_content = load_text_file(TEXT_FILE)
-    if not text_content:
-        raise FileNotFoundError(f"Knowledge base file not found: {TEXT_FILE}")
+    # Load knowledge base content
+    text_content = load_text_content()
 
     # Chunk the content
     splitter = RecursiveCharacterTextSplitter(
