@@ -1,5 +1,6 @@
 import os
 import shutil
+import base64
 
 
 TEXT_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Testriq_info.txt")
@@ -15,14 +16,15 @@ def load_text_content():
         print(f"Loaded from local file: {TEXT_FILE} ({len(content)} chars)")
         return content
 
-    # Fall back to Streamlit secrets (for cloud deployment)
+    # Fall back to Streamlit secrets (base64-encoded for cloud deployment)
     try:
         import streamlit as st
-        content = st.secrets["KNOWLEDGE_BASE"]
+        encoded = st.secrets["KNOWLEDGE_BASE"]
+        content = base64.b64decode(encoded).decode("utf-8")
         print(f"Loaded from Streamlit secrets ({len(content)} chars)")
         return content
-    except (ImportError, KeyError, FileNotFoundError):
-        pass
+    except Exception as e:
+        print(f"Secrets error: {e}")
 
     raise FileNotFoundError(
         "Knowledge base not found! Provide Testriq_info.txt locally "
