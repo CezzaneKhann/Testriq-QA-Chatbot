@@ -1,3 +1,7 @@
 streamlit
 groq
 python-dotenv
+langchain-community
+langchain-text-splitters
+sentence-transformers
+chromadb

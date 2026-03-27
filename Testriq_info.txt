@@ -1,0 +1,241 @@
+================================================================================
+                        TESTRIQ QA LAB LLP — KNOWLEDGE BASE
+               (Structured Data File for RAG-Based AI Chatbot)
+================================================================================
+
+
+[COMPANY OVERVIEW]
+- Company Name: TESTRIQ QA LAB LLP
+- Legal Structure: Limited Liability Partnership (LLP)
+- Certification: ISO 9001 Certified
+- ISTQB Certified Partner
+- Specialization: Pure-play software testing company
+- Value Proposition: Provides unbiased, objective, and independent software testing results
+- Description: A globally trusted software testing company delivering expert-led QA solutions across the full Software Development Life Cycle (SDLC)
+- Tagline: Pure-Play Software Testing Company & QA Outsourcing
+- Website: https://www.testriq.com/
+- Email: contact@testriq.com
+- Phone: (+91) 915-2929-343
+
+
+[FOUNDING & HISTORY]
+- Founded Year: 2010
+- LLP Incorporation Year: 2017 (Formally incorporated as a Limited Liability Partnership)
+- Origin: Started as a team of 2 members working in a shared workspace
+- Key Milestones:
+  - 2010: Foundation — A team of 2 members started working in a shared workspace
+  - Team Expansion: Grew to 50+ certified testing professionals across multiple domains
+  - 2017: Incorporation — Formally incorporated as a Limited Liability Partnership (LLP)
+  - Scaling Up: Achieved 100+ QA experts and scaled delivery across critical verticals
+  - Major Milestone: Completed 8+ years with the world's #1 VPN and launched CDPL Pvt. Ltd.
+  - Tech Expansion: Ventured into Cybersecurity and Artificial Intelligence testing
+  - Drone QA Success: Delivered first successful QA project in the Drone industry
+
+
+[LEADERSHIP]
+- Founder & CEO: Sandeep Maske
+  - Experience: 20+ years in QA Strategy
+- VP Operations: Santosh Kakade
+- VP of QA and Business Development (BD): Goutam Mishra
+- VP Marketing: Rohan Maske
+
+
+[LOCATIONS]
+- Headquarters: Goregaon East, Mumbai, Maharashtra, India
+- Office Address: Office #2, 2nd Floor, Ashley Tower, Kanakia Road, Vagad Nagar, Beverly Park, Mira Road, Mira Bhayandar, Mumbai, Maharashtra 401107
+- Other India Location: Thane (Mira Road), Maharashtra
+- International Location: UAE (Dubai)
+- Client Markets Served: United States (US), United Kingdom (UK), European Union (EU), India, Asia, and the Middle East (UAE)
+- Projects Delivered Across: 15+ countries
+
+
+[ACHIEVEMENTS & KEY METRICS]
+- Years in Industry: 15+
+- Test Cases Executed: 500,000+ (500K+)
+- Certified Experts: 180+ (ISTQB Certified)
+- Happy Clients: 100+
+- Companies Trusted: 50+
+- Client Satisfaction Rate: 100%
+- Project Success Rate: 99.8%
+- Zero critical bugs in production
+- Professional Certifications Held: 40+
+- Availability: 24/7
+- Senior Tester ISTQB Certification Rate: 100%
+- Client Rating: Consistently rated 5 stars for quality, agility, and customer satisfaction
+- Featured on DesignRush for outstanding work
+- Team Growth: Grown from 5 to 50+ professionals while maintaining quality
+
+
+[SERVICES — CORE TESTING]
+- Manual Testing (Quality Assurance)
+- Automation Testing
+- Mobile Application Testing (iOS and Android)
+- Web Application Testing
+- Desktop Application Testing
+- API Testing
+- Regression Testing
+- Exploratory Testing
+- LaunchFast QA (Start-Up Specials for Web, Mobile, and AI/ML Applications)
+
+
+[SERVICES — SPECIALIZED TESTING]
+- Security Testing (Penetration Testing / Pen-testing)
+- AI/ML Application Validation (Gen-AI agents, bias detection, model security)
+- Performance Testing (Load Testing, Stress Testing, Scalability Engineering)
+- IoT Device Testing
+- Robotics Testing
+- Smart Device Testing
+- ETL Testing
+- SAP Testing
+- Telecom Testing
+- Data Analysis Services
+
+
+[SERVICES — MANAGED & CONSULTING]
+- Managed QA Services
+- QA Strategy & Consulting
+- QA Team Augmentation
+- Offshore QA & Augmentation
+- QA Documentation Services
+- Corporate QA Training
+- Environment & Synthetic Test Data Management
+- DevSecOps Integration
+- Risk-Based Testing
+
+
+[COMPLIANCE & STANDARDS]
+- ISO/IEC/IEEE 29119: Backbone of testing services; ensures structured, risk-based documentation and execution
+- SOC2 Type II: Follows global privacy and security standards for data protection
+- GDPR: Full compliance with global data privacy regulations
+- HIPAA: Specialized testing for medical-grade software and healthcare data protection
+- OWASP Top 10: Security audits mapped to latest OWASP standards for cyber-security risk mitigation
+
+
+[INDUSTRY EXPERTISE]
+- E-commerce: Payment gateways, user experience, performance, load testing, checkout testing
+- Healthcare: HIPAA compliance, data security, usability, EHR/EMR testing, patient portal validation, PHI protection
+- FinTech: Financial regulations, security, transaction integrity, real-time payment validation, API security
+- EdTech: Learning platforms, accessibility, scalability, LMS testing, online assessments, student data privacy
+- Gaming: Performance, multiplayer, cross-platform, load handling, mobile game compatibility, FairPlay Testing
+- IoT: Device connectivity, data integrity, security, firmware testing, real-time monitoring
+- SaaS: Multi-tenancy, scalability, integration, CI/CD validation, role-based access, cloud performance
+- Mobile Apps: Cross-platform, performance, usability, network testing, real device testing
+- B2B SaaS & Insurance Platforms: System and API testing for multi-tenant architectures, 99.9% uptime, data integrity
+- Drone Industry: QA testing for drone technology platforms
+
+
+[TECHNOLOGY STACK — AUTOMATION TOOLS]
+- Selenium WebDriver
+- Cypress
+- Playwright
+- Appium
+- TestComplete
+
+
+[TECHNOLOGY STACK — PERFORMANCE TESTING]
+- JMeter
+- LoadRunner
+- K6
+- Gatling
+- BlazeMeter
+
+
+[TECHNOLOGY STACK — API TESTING]
+- Postman
+- REST Assured
+- SoapUI
+- Insomnia
+- Newman
+
+
+[TECHNOLOGY STACK — SECURITY TESTING]
+- OWASP ZAP
+- Burp Suite
+- Nessus
+- Veracode
+- Checkmarx
+
+
+[TECHNOLOGY STACK — AI & MACHINE LEARNING]
+- TensorFlow
+- Py-Torch (PyTorch)
+- Bias Auditing
+- Fairness Testing
+- Model Validation
+
+
+[TECHNOLOGY STACK — CI/CD & DEVOPS]
+- Jenkins
+- GitLab CI
+- Azure DevOps
+- DevSecOps
+- Docker
+
+
+[TECHNOLOGY STACK — MOBILE QA]
+- BrowserStack
+- Sauce Labs
+- Real-Device Labs
+- iOS Testing
+- Android QA
+
+
+[MISSION, VISION & VALUES]
+- Mission: To empower businesses with comprehensive quality assurance solutions that ensure flawless software delivery, accelerate time-to-market, and build user confidence through rigorous testing methodologies.
+- Vision: To be the global leader in software testing innovation, setting industry standards for quality assurance while fostering a culture of continuous learning and technological advancement.
+- Core Values: Excellence, Integrity, Innovation, Collaboration, Quality First, Precision
+- Commitment: Transparent project communication, real-time status updates, tailored QA strategies, 24/7 QA support, and dedicated project coordination for agile delivery
+
+
+[METHODOLOGY & APPROACH]
+- QA Strategy & Consulting: Aligns testing with business ROI; evaluates SDLC visibility and methodology
+- Environment & Synthetic Data: Establishes secure protocols; generates realistic GDPR-compliant synthetic test data
+- Multi-Layered Execution: Rigorous regression, cross-browser, and software adaptation testing
+- Scalability Engineering: Stress testing for SaaS and enterprise platforms for global traffic spikes
+- AI & ML Validation: Expert validation of Gen-AI agents, bias detection, securing models against modern threats
+- Risk-Based Testing: Focuses on the most critical features first for thorough system and user testing
+- Advanced Test Data Management (TDM): Synthetic test data generation and data masking for compliant datasets
+- Containerized test environments with cloud monitoring for CI/CD pipeline stability
+
+
+[NOTABLE CLIENTS & CASE STUDIES]
+- Canva: QA testing services for Canva's design platform; ensured smooth UI updates and feature rollouts across all devices and platforms
+  - Testimonial: "I highly recommend Testriq for their outstanding QA testing services provided to Canva over the past few years." — Loren De Camas, QA Lead at Canva
+- Milton: Smart Stainless Steel Water Bottle case study; tested connectivity, functionality, measurement accuracy, and sample validation
+- Brandify: QA for digital marketing; applied industry QA standards, tracked test cases in TestRail, integrated voice assist technology
+- Ragnar: Testing across diverse user base
+  - Testimonial: "Testriq is thorough and proficient in testing across our diverse user base. They are flexible and reliably meet deadlines." — Jake Browning, Director of Product and Technology, Ragnar
+- Digiboxx: Comprehensive testing resources and responsive support
+  - Testimonial: "Testriq provides comprehensive testing resources and responsive support. They've played a crucial role in our business success." — Ranjan Upadhyay, Vice President - Operations, Digiboxx
+- Kanishka Software: Performance and user experience improvements
+  - Testimonial: "TESTRIQ provided clear, actionable insights that improved both performance and user experience. Their professionalism is truly appreciated." — Vinay Vikram Singh, Director, Kanishka Software
+
+
+[WHY CHOOSE TESTRIQ]
+- Pure-play software testing company (independent and unbiased)
+- ISO 9001 Certified
+- ISTQB Certified partner with 180+ certified experts
+- 15+ years of proven QA excellence
+- 99.8% project success rate with zero critical bugs in production
+- 24/7 availability and support
+- Global reach with localized expertise for US, UK, EU, India, Asia, and Middle Eastern markets
+- Technical depth from Security Pen-testing to Autonomous Testing and AI validation
+- Cost-effective Offshore QA Testing without sacrificing quality
+- Free QA consultations available
+- Seamless integration with client development teams
+
+
+[CONTACT INFORMATION]
+- Website: https://www.testriq.com/
+- Email: contact@testriq.com
+- Phone: (+91) 915-2929-343
+- Contact Page: https://www.testriq.com/contact-us
+- Schedule a Call: https://www.testriq.com/contact-us
+- Careers Page: https://www.testriq.com/careers
+- Blog: https://www.testriq.com/blog
+- Case Studies: https://www.testriq.com/case-studies
+
+
+================================================================================
+                           END OF KNOWLEDGE BASE
+================================================================================
