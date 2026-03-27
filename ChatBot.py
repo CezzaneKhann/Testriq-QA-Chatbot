@@ -35,17 +35,22 @@ def get_api_key():
     """Get GROQ API key from st.secrets (cloud) or .env (local dev)."""
     # Try Streamlit secrets first (for cloud deployment)
     try:
-        return st.secrets["GROQ_API_KEY"]
-    except (FileNotFoundError, KeyError):
-        pass
+        key = st.secrets["GROQ_API_KEY"]
+        if key:
+            return key
+    except Exception as e:
+        st.warning(f"⚠️ Secrets error: {type(e).__name__}: {e}")
     # Fallback to environment variable (for local dev)
-    from dotenv import load_dotenv
-    load_dotenv()
-    key = os.getenv("GROQ_API_KEY")
-    if not key:
-        st.error("❌ GROQ_API_KEY not found. Set it in Streamlit secrets or .env file.")
-        st.stop()
-    return key
+    try:
+        from dotenv import load_dotenv
+        load_dotenv()
+        key = os.getenv("GROQ_API_KEY")
+        if key:
+            return key
+    except Exception:
+        pass
+    st.error("❌ GROQ_API_KEY not found. Set it in Streamlit secrets or .env file.")
+    st.stop()
 
 
 # Initialize clients
