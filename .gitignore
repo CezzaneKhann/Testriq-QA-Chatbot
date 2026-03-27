@@ -4,4 +4,5 @@ __pycache__/
 testriq_db/
 diagnosis.txt
 Testriq_info.txt
+_encoded_kb.txt
 *.pyc
